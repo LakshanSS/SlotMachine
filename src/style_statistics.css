@@ -1,0 +1,98 @@
+/*Style for the StackPane*/
+#stackPane{
+    -fx-background-color: #000000;/*Color-Black*/
+    -fx-padding: 60;
+    -fx-font-family: "Verdana";
+}
+
+/*Style for the Container VBox*/
+#vbContainer{
+     -fx-alignment: center ;
+     -fx-spacing:25;
+}
+
+/*Style for the Title*/
+#lblTitle{
+    -fx-text-fill: #dc143c;/*Color-Crimson*/
+    -fx-font-size: 40px ;
+}
+
+/*Style for the GridPane*/
+#gpGrid{
+     -fx-alignment: center ;
+     -fx-border-color: #708090;/*Color-SlateGray*/
+     -fx-border-width: 6;
+     -fx-border-radius: 30;
+     -fx-padding:20;
+}
+
+
+/*Style for the SaveButton*/
+#btnSave{
+     -fx-background-color: #4169e1;/*Color-RoyalBlue*/
+     -fx-text-fill: #ffffff;/*Color-White*/
+     -fx-background-radius: 30px;
+     -fx-font-size: 14px ;
+     -fx-pref-width:100;
+ }
+
+/*Style for the HBox which holds the graphs*/
+#hbGraphs{
+     -fx-alignment: center ;
+     -fx-spacing:10;
+     -fx-border-color: #708090;/*Color-SlateGray*/
+     -fx-border-width: 6;
+     -fx-border-radius: 30;
+}
+
+/*Style for the Labels*/
+.label{
+    -fx-text-fill: #ffffff;/*Color-White*/
+    -fx-font-size: 16px ;
+}
+
+/*Style for the Stats about gain*/
+.lblGainStats{
+    -fx-text-fill: #00fa9a;/*Color-MediumSpringGreen*/
+    -fx-font-size: 16px ;
+}
+
+/*Style for the PieChart*/
+.data0.chart-pie { -fx-pie-color: #168526;/*Color-Green*/ }
+.data1.chart-pie { -fx-pie-color: #dc143c;/*Color-Crimson*/ }
+
+.axis {
+    -fx-font-size: 1.4em;
+    -fx-tick-label-fill: #ffffff;/*Color-White*/
+    -fx-font-family: Verdana;
+    -fx-tick-length: 20;
+}
+
+.axis-label {
+   -fx-text-fill: #ffffff;/*Color-White*/
+}
+.chart-plot-background {
+    -fx-background-color: #000000;/*Color-Black*/
+}
+.chart-pie-label-line {
+    -fx-stroke: #708090;/*Color-SlateGray*/
+    -fx-fill: #ffffff;/*Color-White*/
+}
+
+.chart-pie-label { /*this is what you need for labels*/
+    -fx-fill:  #ffffff;/*Color-White*/
+    -fx-font-size: 1em;
+}
+.chart-legend {
+   -fx-background-color: #000000;/*Color-Black*/
+   -fx-stroke: #ffffff;/*Color-White*/
+}
+
+
+/*Style for the BarChart*/
+.data0.chart-bar {
+    -fx-bar-fill: #168526;/*Green*/
+}
+.data1.chart-bar {
+   -fx-bar-fill: #dc143c;/*Crimson*/
+}
